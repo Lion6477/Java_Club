@@ -1,41 +1,20 @@
 package Homework_3;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Zad_2 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         int[] values = {1, 0, 2, 5, 6, 4, 10, 3};
-        System.out.println(Arrays.toString(values));
-        boolean bool = true;
-        while (bool){
-            int temp = 0;
-//            for (int i = 0; i < values.length; i++) {
-//                if (i+1 < values.length){
-//                    temp = values[i+1];
-//                    values[i+1] = values[i];
-//                    values[i] = temp;
-//                }else {
-//                    temp = values[i];
-//                    values[0] = temp;
-//                    temp = 0;
-//                }
-//                System.out.println(Arrays.toString(values));
-//            }
-            temp = values[0];
-            for (int i = values.length; i; i--) {
-                if (i == values.length - 1){
-                    values[i] = temp;
-                }else {
-                    values[i+1] = values[i];
-                }
-                System.out.println(Arrays.toString(values));
+        int[] values_new = new int[values.length];
+        for (int i = values.length - 1; i >= 0; i--) {
+            if (i + 1 >= values.length) {
+                values_new[i + 1 - values.length] = values[i];
+            } else {
+                values_new[i + 1] = values[i];
             }
-            bool = scanner.nextBoolean();
-
         }
-
-
+        System.out.println("Old array: " + Arrays.toString(values));
+        System.out.println("New array: " + Arrays.toString(values_new));
     }
 }
+
