@@ -1,4 +1,4 @@
-package Homework_4_2.Entity;
+package Homework_4_2_RPG_game.Entity;
 
 public interface Mortal {
     default boolean isAlive() {

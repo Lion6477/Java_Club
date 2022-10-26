@@ -1,12 +1,12 @@
-package Homework_4_2.Actions.AttackAction;
+package Homework_4_2_RPG_game.Actions.AttackAction;
 
-import Homework_4_2.Entity.Enemies._Enemy;
-import Homework_4_2.Entity.Heroes._Hero;
+import Homework_4_2_RPG_game.Entity.Enemies._Enemy;
+import Homework_4_2_RPG_game.Entity.Heroes._Hero;
 
 import java.util.ArrayList;
 
-import static Homework_4_2.Actions.AttackAction.CheckForAllEntityDead.checkForAllEnemiesDead;
-import static Homework_4_2.Actions.AttackAction.CheckForAllEntityDead.checkForAllHeroesDead;
+import static Homework_4_2_RPG_game.Actions.AttackAction.CheckForAllEntityDead.checkForAllEnemiesDead;
+import static Homework_4_2_RPG_game.Actions.AttackAction.CheckForAllEntityDead.checkForAllHeroesDead;
 
 public class CheckForGameOver {
     public static void checkForEnemiesGameOver(ArrayList<_Enemy> enemyArrayList) {

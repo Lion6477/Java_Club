@@ -1,4 +1,4 @@
-package Homework_4_2;
+package Homework_4_2_RPG_game;
 
 public class TrainingGround {
 //    public static void main(String[] args) {

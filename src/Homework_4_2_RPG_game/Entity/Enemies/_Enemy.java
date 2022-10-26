@@ -1,18 +1,20 @@
-package Homework_4_2.Entity.Enemies;
+package Homework_4_2_RPG_game.Entity.Enemies;
 
-import Homework_4_2.Entity.Heroes._Hero;
-import Homework_4_2.Entity.Mortal;
-
-import java.util.Random;
-
-import static Homework_4_2.Entity.Enemies.Zombie.getHealthNew;
+import Homework_4_2_RPG_game.Entity.Heroes._Hero;
+import Homework_4_2_RPG_game.Entity.Mortal;
 
 public abstract class _Enemy implements Mortal {
+    public String getType() {
+        return type;
+    }
+
+    String type;
     String name;
     int health;
     public _Enemy(String name, int health) {
         this.name = name;
         this.health = health;
+        this.type = "Enemy";
     }
 
     @Override

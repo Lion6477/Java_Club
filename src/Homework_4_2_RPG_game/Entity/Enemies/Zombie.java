@@ -1,6 +1,6 @@
-package Homework_4_2.Entity.Enemies;
+package Homework_4_2_RPG_game.Entity.Enemies;
 
-import Homework_4_2.Entity.Heroes._Hero;
+import Homework_4_2_RPG_game.Entity.Heroes._Hero;
 
 import java.util.Random;
 
@@ -12,6 +12,7 @@ public class Zombie extends _Enemy {
 
     public Zombie(String name, int health) {
         super(name, health);
+        this.type = "Zombie";
     }
 
     @Override

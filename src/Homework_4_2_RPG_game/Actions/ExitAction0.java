@@ -1,4 +1,4 @@
-package Homework_4_2.Actions;
+package Homework_4_2_RPG_game.Actions;
 
 public class ExitAction0 {
     public static void exitActionCheck(int input){

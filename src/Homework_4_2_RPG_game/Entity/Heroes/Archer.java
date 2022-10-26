@@ -1,6 +1,6 @@
-package Homework_4_2.Entity.Heroes;
+package Homework_4_2_RPG_game.Entity.Heroes;
 
-import Homework_4_2.Entity.Enemies._Enemy;
+import Homework_4_2_RPG_game.Entity.Enemies._Enemy;
 
 public class Archer extends _Hero {
     public Archer(String name, int health) {

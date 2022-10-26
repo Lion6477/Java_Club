@@ -1,20 +1,20 @@
-package Homework_4_2;
+package Homework_4_2_RPG_game;
 
-import Homework_4_2.Entity.Enemies._Enemy;
-import Homework_4_2.Entity.Enemies.Zombie;
-import Homework_4_2.Entity.Heroes.Mage;
-import Homework_4_2.Entity.Heroes._Hero;
+import Homework_4_2_RPG_game.Entity.Enemies._Enemy;
+import Homework_4_2_RPG_game.Entity.Enemies.Zombie;
+import Homework_4_2_RPG_game.Entity.Heroes.Mage;
+import Homework_4_2_RPG_game.Entity.Heroes._Hero;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import static Homework_4_2.Actions.ExitAction0.exitActionCheck;
-import static Homework_4_2.Actions.AttackAction.AttackEnemy.attackEnemy;
-import static Homework_4_2.Actions.AttackAction.AttackHero.attackHero;
-import static Homework_4_2.Actions.AttackAction.CheckForGameOver.checkForEnemiesGameOver;
-import static Homework_4_2.Actions.AttackAction.CheckForGameOver.checkForHeroesGameOver;
-import static Homework_4_2.Actions.GetHeroOrEnemy.GetEnemyByNumberInArrayList.getEnemyByNumber;
-import static Homework_4_2.Actions.GetHeroOrEnemy.GetHeroByNumber.getHeroByNumber;
+import static Homework_4_2_RPG_game.Actions.ExitAction0.exitActionCheck;
+import static Homework_4_2_RPG_game.Actions.AttackAction.AttackEnemy.attackEnemy;
+import static Homework_4_2_RPG_game.Actions.AttackAction.AttackHero.attackHero;
+import static Homework_4_2_RPG_game.Actions.AttackAction.CheckForGameOver.checkForEnemiesGameOver;
+import static Homework_4_2_RPG_game.Actions.AttackAction.CheckForGameOver.checkForHeroesGameOver;
+import static Homework_4_2_RPG_game.Actions.GetHeroOrEnemy.GetEnemyByNumberInArrayList.getEnemyByNumber;
+import static Homework_4_2_RPG_game.Actions.GetHeroOrEnemy.GetHeroByNumber.getHeroByNumber;
 
 public class BattleGround {
     public static void main(String[] args) throws Exception{
@@ -30,7 +30,6 @@ public class BattleGround {
         _Enemy zombie2 = new Zombie("Zomb2", 50);
         enemyArrayList.add(zombie1);
         enemyArrayList.add(zombie2);
-
 
         System.out.println("Type 9 to exit!");
         while (true) {

@@ -1,11 +1,11 @@
-package Homework_4_2.Actions.AttackAction;
+package Homework_4_2_RPG_game.Actions.AttackAction;
 
-import Homework_4_2.Entity.Enemies._Enemy;
-import Homework_4_2.Entity.Heroes._Hero;
+import Homework_4_2_RPG_game.Entity.Enemies._Enemy;
+import Homework_4_2_RPG_game.Entity.Heroes._Hero;
 
 import java.util.ArrayList;
 
-import static Homework_4_2.Actions.AttackAction.CheckHealthHero.checkHealthHero;
+import static Homework_4_2_RPG_game.Actions.AttackAction.CheckHealthHero.checkHealthHero;
 
 public class AttackHero {
     public static void attackHero(_Enemy enemy, _Hero hero, ArrayList<_Hero> heroesArrayList){
