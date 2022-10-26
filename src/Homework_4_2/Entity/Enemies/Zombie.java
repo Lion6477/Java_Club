@@ -20,14 +20,14 @@ public class Zombie extends _Enemy {
             System.out.println(name + " attacking " + hero.getName() + "!");
     }
 
-    public static int getHealthNew(int healthStandart){
-        return healthStandart / 2;
+    public static int getHealthNew(int health){
+        return health / 2;
     }
 
     public static void zombieResurrect(_Enemy enemy){
         Random random = new Random();
-        int healthStandart = 50;
-        int health = getHealthNew(healthStandart);
+        int health = 50;
+        health = getHealthNew(health);
         if (enemy.getHealth() <= 0) {
 //            if (random.nextInt(20+1) <= 15) {
 //                enemy.setHealth(0);

@@ -23,7 +23,7 @@ public class CheckHealthEnemy {
 
             } else {
                 enemyArrayList.remove(enemy);
-                System.out.println("Enemy has been defeated by" + hero.getName() + "!");
+                System.out.println("Enemy has been defeated by " + hero.getName() + "!");
             }
         }
     }

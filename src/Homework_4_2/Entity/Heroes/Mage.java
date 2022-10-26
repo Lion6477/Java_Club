@@ -9,7 +9,7 @@ public class Mage extends _Hero {
 
     @Override
     public void attackEnemy(_Enemy enemy) {
-            enemy.takeDamage(30);
+            enemy.takeDamage(20);
             System.out.println(name + " attacking enemy using fireball!");
     }
     @Override

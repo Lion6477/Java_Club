@@ -16,7 +16,7 @@ public class CheckHealthHero {
 
             } else {
                 heroArrayList.remove(hero);
-                System.out.println("Hero has been defeated by" + enemy.getName() + "!");
+                System.out.println("Hero has been defeated by " + enemy.getName() + "!");
             }
         }
     }
